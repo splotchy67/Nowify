@@ -186,7 +186,7 @@ export default {
 
       document.documentElement.style.setProperty(
         '--colour-background-now-playing',
-        this.playerResponse.item.album.images[0].url
+        this.colourPalette.background
       )
     },
 
